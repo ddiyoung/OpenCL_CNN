@@ -1,0 +1,5 @@
+#pragma once
+void cnn_seq(float* images, float* network, int* labels, float* confidences, int num_of_image);
+void cnn_init(float* network);
+void cnn(float* images, float* network, int* labels, float* confidences, int num_of_image);
+void compare(const char* filename, int num_of_image);
